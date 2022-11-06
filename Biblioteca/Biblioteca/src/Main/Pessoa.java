@@ -24,6 +24,7 @@ public class Pessoa implements Serializable{
 		this.nome=nome;
 	}
 	
+	
 	public Pessoa( String nome, String cpf, String rg) {
 		this.nome=nome;
 		this.cpf=cpf;

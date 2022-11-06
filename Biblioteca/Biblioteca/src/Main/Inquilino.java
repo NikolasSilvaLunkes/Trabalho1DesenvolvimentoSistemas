@@ -14,6 +14,8 @@ public class Inquilino extends Pessoa implements Serializable{
 	
 	public String telefone;
 	
+	public ArrayList<Produto> lstProdutos;
+	
 	
 	@Override
 	public String toString(){
@@ -33,6 +35,12 @@ public class Inquilino extends Pessoa implements Serializable{
 		this.telefone = telefone;
 	}
 
-	
+	public ArrayList<Produto> getLstProdutos() {
+		return lstProdutos;
+	}
+
+	public void setLstProdutos(ArrayList<Produto> lstProdutos) {
+		this.lstProdutos = lstProdutos;
+	}
 	
 }
